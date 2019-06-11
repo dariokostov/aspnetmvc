@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dario Kostov\\Desktop\\Homewokr\\Homewokr\\Homewokr.csproj": {}
+    "C:\\Users\\Dario Kostov\\Documents\\GitHub\\aspnetmvc\\Homework-01\\Homewokr\\Homewokr.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dario Kostov\\Desktop\\Homewokr\\Homewokr\\Homewokr.csproj": {
+    "C:\\Users\\Dario Kostov\\Documents\\GitHub\\aspnetmvc\\Homework-01\\Homewokr\\Homewokr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dario Kostov\\Desktop\\Homewokr\\Homewokr\\Homewokr.csproj",
+        "projectUniqueName": "C:\\Users\\Dario Kostov\\Documents\\GitHub\\aspnetmvc\\Homework-01\\Homewokr\\Homewokr.csproj",
         "projectName": "Homewokr",
-        "projectPath": "C:\\Users\\Dario Kostov\\Desktop\\Homewokr\\Homewokr\\Homewokr.csproj",
+        "projectPath": "C:\\Users\\Dario Kostov\\Documents\\GitHub\\aspnetmvc\\Homework-01\\Homewokr\\Homewokr.csproj",
         "packagesPath": "C:\\Users\\Dario Kostov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dario Kostov\\Desktop\\Homewokr\\Homewokr\\obj\\",
+        "outputPath": "C:\\Users\\Dario Kostov\\Documents\\GitHub\\aspnetmvc\\Homework-01\\Homewokr\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -80,7 +80,6 @@ namespace Homewokr.Controllers
             return View("Movies", MoviesList);
         }
 
-
         public IActionResult Edit(int id)
         {
             var movie = MoviesList.FirstOrDefault(m => m.Id == id);
@@ -95,5 +94,18 @@ namespace Homewokr.Controllers
             return View("Movies", MoviesList);
         }
 
+        public IActionResult Remove(int id)
+        {
+            var movie = MoviesList.FirstOrDefault(m => m.Id == id);
+            return View(movie);
+        }
+
+        [HttpPost]
+        public IActionResult RemoveMovie(MovieModel movie)
+        {
+            MoviesList.Remove(MoviesList[movie.Id]);
+
+            return View("Movies", MoviesList);
+        }
     }
 }
