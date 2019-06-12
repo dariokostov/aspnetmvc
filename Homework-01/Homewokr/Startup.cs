@@ -54,6 +54,12 @@ namespace Homewokr
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
+                //routes.MapRoute(
+                //    name: "custom",
+                //    template: "custom/{action}/{id?}",
+                //    defaults: new { controller = "Custom", action = "ReadPost"}
+                //    );
             });
         }
     }

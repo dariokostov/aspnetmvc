@@ -107,5 +107,11 @@ namespace Homewokr.Controllers
 
             return View("Movies", MoviesList);
         }
+
+        public IActionResult File()
+        {
+            var context = System.IO.File.ReadAllBytes("wwwroot/Movies - Homewokr.pdf");
+            return File(context, "application/pdf");
+        }
     }
 }
